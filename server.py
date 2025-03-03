@@ -19,7 +19,7 @@ def search_files(fragment: str) -> List[Dict[str, Any]]:
     for root, _, files in os.walk(search_root):
         if count > 20:
             # лимит на резы для удобства тз
-            break
+            return results
         for file in files:
             full_path = Path(root) / file
             if fragment in str(full_path):
