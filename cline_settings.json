@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "fast-demo": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "/Users/khaknazar/Desktop/mcp-fast/server.py"
+      ],
+      "autoApprove": ["search_files"],
+      "disabled": false
+    }
+  }
+}
